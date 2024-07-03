@@ -1,0 +1,105 @@
+.navbar {
+  background-color: #4a4e69;
+  display: flex;
+  height: 70px;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  background: linear-gradient(to right, #fca311, #e98074);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-left: -10em;
+  font-size: 18px;
+  color: white;
+}
+
+.navbar-logo {
+  background: linear-gradient(to right, #11fcd1, #e98074);
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 19px;
+  color: white;
+}
+
+.navbar-right {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.wishlist-info {
+  background: linear-gradient(to right, #17e7e4, #c874e9);
+  color: white;
+  opacity: 50;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.create-wishlist {
+  background: linear-gradient(to right, #e7174f, #e974cc);
+  cursor: pointer;
+  color: white;
+  opacity: 50;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.logout-button {
+  padding: 10px 16px;
+  border: none;
+  background: linear-gradient(to right, #e71717, #e97474);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #1d3557;
+}
+
+/* //////////////////////  */
+.create-wishlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px; /* Optional: add padding for better click area */
+  background-color: #007bff; /* Optional: add background color */
+  border-radius: 5px; /* Optional: add border radius */
+}
+
+.create-wishlist span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px; /* Optional: space between text and icon */
+}
+
+.create-wishlist span:last-child {
+  margin-right: 0; /* Remove margin for the last span */
+}
+
+.create-wishlist:hover {
+  background-color: #0056b3; /* Optional: hover effect */
+}

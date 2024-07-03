@@ -1,0 +1,225 @@
+.home-container {
+  display: flex;
+  /* height: 80vh; */
+  /* height: 230vh; */
+  justify-content: center;
+
+  align-items: center;
+}
+
+.card-container {
+  background: black;
+  margin-top: 10rem;
+  border-radius: 10px;
+  padding: 40px 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.card-message {
+  background: linear-gradient(to right, #17e7e0, #74a9e9);
+  cursor: pointer;
+  margin-top: 40px;
+  color: white;
+  opacity: 50;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.main-card {
+  background: white;
+  /* background: black; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.single-card {
+  display: flex;
+  background: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+/* ///////////////////////////////////////////////////////////////OWN  */
+.card {
+  border-radius: 10px;
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(255, 252, 252, 1);
+  overflow: hidden;
+  margin: 20px;
+  width: 900px;
+}
+
+.card-top {
+  padding: 20px;
+}
+
+.card-number {
+  font-size: 1.2em;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+
+.card-title {
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 2px;
+  font-weight: 700;
+  display: flex;
+  font-size: 1.1em;
+  color: white;
+}
+
+.card-description {
+  font-size: 0.9em;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+}
+
+.card-bottom {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-bottom-left,
+.card-bottom-center,
+.card-bottom-right {
+  display: flex;
+  align-items: center;
+}
+
+.card-genre,
+.card-release-year,
+.card-rating,
+.card-status {
+  font-size: 0.9em;
+  color: white;
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-genre {
+  background-color: #fc5c65;
+  margin-right: 10px;
+  padding: 3px 10px;
+  color: white;
+  border-radius: 3px;
+}
+.card-release-year {
+  background-color: #8854d0;
+  margin-right: 10px;
+  font-style: normal;
+
+  padding: 3px 10px;
+  color: white;
+  border-radius: 3px;
+}
+
+.card-status {
+  background-color: #eb2f06;
+  margin-right: 10px;
+  padding: 3px 10px;
+  color: white;
+  border-radius: 3px;
+  margin-left: 1rem;
+}
+
+.card-status-watched {
+  background-color: #2ecc71;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 3px 10px;
+  color: white;
+  border-radius: 3px;
+  margin-left: 1rem;
+}
+.card-button1 {
+  background: linear-gradient(to right, #0ad93e, #74e997);
+  color: white;
+  margin: 0 5px;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.card-button2 {
+  background: linear-gradient(to right, #fce811, #b1d115);
+  color: white;
+  margin-left: "10px";
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+  padding: 5px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button3 {
+  background: linear-gradient(to right, #fc3011, #a12719);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  margin-right: "10px";
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ftch {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.bo-oader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 9em;
+}

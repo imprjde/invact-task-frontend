@@ -1,0 +1,233 @@
+.Movie-form-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 50%;
+  box-shadow: 0px 4px 6px -1px rgba(56, 189, 248, 1),
+    0px 2px 4px -1px rgba(56, 189, 248, 0.6);
+  border-radius: 0.5rem; /* 8px */
+  padding: 1rem; /* 16px */
+  margin: auto; /* Center horizontally */
+  margin-top: 10%; /* Center vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heading {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-start;
+  margin-left: 0.5rem; /* ml-2 */
+  margin-bottom: 0.75rem; /* mb-3 */
+}
+
+.Inner-heading {
+  color: white;
+  background: linear-gradient(to right, #702459, #1f2937);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.5),
+    0 4px 6px -2px rgba(244, 63, 94, 0.5);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.Form-div > * + * {
+  margin-top: 0.75rem; /* Equivalent to space-y-3 */
+}
+
+.Form-div {
+  padding-top: 0.75rem; /* Equivalent to pt-3 */
+}
+
+.Label {
+  display: flex;
+  margin-left: 0.25rem;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+  text-align: left;
+}
+.Input-class {
+  width: 500px;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
+  height: 3rem; /* 2.5rem = 10 * 0.25rem (base unit in Tailwind) */
+  padding: 0.5rem; /* 0.5rem = 2 * 0.25rem */
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem; /* 0.25rem = 4px (base unit in Tailwind CSS) */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+.input-container input[type="date"],
+.input-container input[type="text"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* INPUT CONTAINER  */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  min-width: 217px;
+  height: 40px;
+  padding: 5px 10px 10px 10px;
+  background: #fff;
+  border-radius: 8px;
+  filter: drop-shadow(0px 0px 3px #000);
+  -webkit-filter: drop-shadow(0px 0px 3px #000);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.input-container label {
+  position: relative;
+  width: 100%;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  color: #09f;
+  margin-left: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.input-container input {
+  position: relative;
+  align-items: center;
+  width: auto;
+  height: auto;
+  font-family: "Lekton", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-left: 0px;
+}
+
+/* ///////////////  */
+.Div-two {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Div-two > *:not(:last-child) {
+  margin-right: 0.75rem; /* 0.75rem is equivalent to 3 * 0.25rem, where 0.25rem is the default space unit in Tailwind CSS */
+}
+
+.Reset-button {
+  position: relative;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  letter-spacing: 0.05em; /* tracking-wider */
+  background-color: #1f2937; /* bg-gray-800 */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.25rem; /* py-1 */
+  padding-bottom: 0.25rem; /* py-1 */
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+  overflow: hidden;
+  font-weight: 500; /* font-medium */
+  color: #ffffff; /* text-white */
+  transition: all 0.3s ease-out; /* transition duration-300 ease-out */
+  border: 1px solid #ffffff; /* border border-white */
+  border-radius: 4px; /* rounded-[4px] */
+  box-shadow: 0 0 10px 0 #ffffff; /* shadow-md shadow-white */
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: white;
+  background-image: none;
+  flex: 1;
+  padding: 0 0.5em;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+select::-ms-expand {
+  display: none;
+}
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: white;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: white;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+.select:hover::after {
+  color: #23b499;
+}
+.Create-button {
+  position: relative;
+  cursor: pointer;
+  min-width: 120px;
+  letter-spacing: 0.05em; /* Adjusted for tracking-wider */
+  font-weight: 500;
+  font-size: 17px;
+  background: linear-gradient(
+    to right,
+    #2563eb,
+    #1e40af
+  ); /* from-blue-600 to-blue-950 */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 2rem; /* py-1 px-8 */
+  overflow: hidden;
+  font-weight: 500; /* font-medium */
+  color: white;
+  transition: all 0.3s ease-out;
+  border: 1px solid #38bdf8; /* border-sky-400 */
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(56, 189, 248, 0.4); /* shadow-md shadow-sky-400 */
+}
+
+/* @media (min-width: 768px) {
+  .Movie-form-container {
+    width: 50%;
+  }
+} */

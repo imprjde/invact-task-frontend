@@ -1,0 +1,29 @@
+.review-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px 20px;
+  min-width: 500px;
+  margin-bottom: 20px;
+}
+
+.user-infooo {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: #f39c12; /* Example color for stars */
+}
+
+.star {
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+.review-description {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
