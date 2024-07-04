@@ -69,7 +69,7 @@ export default function Details() {
 
   useEffect(() => {
     handleGetAllReviews();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <div className="detail-container">
@@ -101,7 +101,8 @@ export default function Details() {
           <span className="detail-genre">{selectedMovie?.genre}</span>
           <span className="detail-year">{selectedMovie?.year.slice(0, 4)}</span>
           <span className="watched-or-not">
-            {selectedMovie?.isWatched ? "Watched" : "Unwatched"}
+            {/* {selectedMovie?.isWatched ? "Watched" : "Unwatched"} */}
+            {selectedMovie?.isWatched === "watched" ? "Watched" : "Unwatched"}
           </span>
         </div>
         <div className="rating-div">
