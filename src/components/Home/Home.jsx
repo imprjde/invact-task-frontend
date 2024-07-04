@@ -33,16 +33,16 @@ export default function Home() {
 
   const handleDeleteWishlist = (id, title) => {
     const confirmed = window.confirm(
-      `Are you sure you want to delete ${title} from your Wishlist?`
+      `Are you sure you want to delete ${title} from your Watchlist ?`
     );
     if (confirmed) {
       dispatch(deleteWishlist(id))
         .then(() => {
-          toast.success(`${title} deleted successfully from your Wishlist.`);
+          toast.success(`${title} deleted successfully from your Watchlist .`);
         })
         .catch((error) => {
-          console.error("Error deleting wishlist:", error);
-          toast.error("Failed to delete from Wishlist.");
+          console.error("Error deleting Watchlist :", error);
+          toast.error("Failed to delete from Watchlist .");
         });
     }
   };
@@ -66,7 +66,7 @@ export default function Home() {
             />
           </div>
           <div style={{ marginTop: "30px" }} className="loader-container">
-            <span className="ftch">Fetching Your Wishlist...</span>
+            <span className="ftch">Fetching Your Watchlist ...</span>
           </div>
         </div>
       ) : (
@@ -74,10 +74,10 @@ export default function Home() {
           {wishlist?.data?.length === 0 && (
             <div className="card-container">
               <span className="card-title">
-                Sorry!! No Movie Wishlist to Display
+                Sorry!! No Movie Watchlist to Display
               </span>{" "}
               <Link to="/addMovie" className="card-message">
-                Create Your First Wishlist Here
+                Create Your First Watchlist Here
               </Link>{" "}
             </div>
           )}
@@ -98,7 +98,7 @@ export default function Home() {
                     color: "white",
                   }}
                 >
-                  Here are Your Movie Wishlist
+                  Here are Your Movie Watchlist
                 </span>
               </div>
 

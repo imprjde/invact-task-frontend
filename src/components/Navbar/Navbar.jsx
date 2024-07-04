@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="navbar-logo">
         <Link to="/" style={{ textDecoration: "none", color: "white" }}>
           <div>
-            <span>MY WISHLIST</span>
+            <span>MY WATCHLIST</span>
           </div>
         </Link>
       </div>
@@ -44,10 +44,10 @@ export default function Navbar() {
       </div>
       <div className="navbar-right">
         <span className="wishlist-info">
-          Total Wishlist: {wishlist?.data?.length}
+          Total Watchlist : {wishlist?.data?.length}
         </span>
         <Link to="/addmovie" className="create-wishlist">
-          <span>Create Movie Wishlist</span>
+          <span>Create Movie Watchlist </span>
           <span>
             <IoMdAdd size={20} />
           </span>

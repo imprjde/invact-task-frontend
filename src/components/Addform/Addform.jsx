@@ -61,15 +61,15 @@ export default function Addform() {
 
       await dispatch(createWishlist(wishlistData));
 
-      toast.success("Your Wishlist is Created");
+      toast.success("Your Watchlist  is Created");
 
       setTimeout(() => {
         setMovieData({ title: "", description: "", year: "", genre: "" });
         navigate("/");
       }, 3000);
     } catch (error) {
-      console.error("Error creating wishlist:", error);
-      toast.error("Failed to create wishlist.");
+      console.error("Error creating Watchlist :", error);
+      toast.error("Failed to create Watchlist .");
     }
   };
 
@@ -87,7 +87,7 @@ export default function Addform() {
       <Toaster position="top-center" />
       <div className="Movie-form-container">
         <div className="Heading">
-          <span className="Inner-heading">Create Your Movie Wishlist</span>
+          <span className="Inner-heading">Create Your Movie Watchlist </span>
         </div>
         <div className="Form-div">
           <div>

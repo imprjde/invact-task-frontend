@@ -34,12 +34,12 @@ export default function Details() {
 
   const handleDeleteWishlist = async (id, title) => {
     const confirmed = window.confirm(
-      `Are you sure you want to delete ${title} from your Wishlist?`
+      `Are you sure you want to delete ${title} from your Watchlist ?`
     );
     if (confirmed) {
       try {
         dispatch(deleteWishlist(id));
-        toast.info("Movie Deleted From Wishlist Successfully");
+        toast.info("Movie Deleted From Watchlist  Successfully");
         setTimeout(() => {
           navigate("/");
         }, 3000);

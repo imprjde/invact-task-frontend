@@ -68,15 +68,15 @@ export default function Editform() {
     try {
       setButtonText("Updating...");
       await dispatch(updateWishlist(updatedMovie));
-      toast.success("Wishlist updated successfully!");
+      toast.success("Watchlist  updated successfully!");
       setTimeout(() => {
         navigate("/");
       }, 3000);
     } catch (error) {
-      console.error("Error updating wishlist:", error);
-      toast.error("Failed to update wishlist.");
+      console.error("Error updating Watchlist :", error);
+      toast.error("Failed to update Watchlist .");
     } finally {
-      setButtonText("Edit Wishlist");
+      setButtonText("Edit Watchlist ");
     }
   };
   const formatDate = (dateString) => {
@@ -89,7 +89,7 @@ export default function Editform() {
       <Toaster position="top-center" />
       <div className="Movie-form-container">
         <div className="Heading">
-          <span className="Inner-heading">Edit Your Movie Wishlist</span>
+          <span className="Inner-heading">Edit Your Movie Watchlist </span>
         </div>
         <div className="Form-div">
           <form onSubmit={handleSubmit}>
