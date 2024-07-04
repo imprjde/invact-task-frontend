@@ -12,7 +12,6 @@ export default function Home() {
   const [id, setId] = useState(null);
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  // const { status, error, wishlist } = useSelector((state) => state.wishlist);
   const { wishlist } = useSelector((state) => state.wishlist);
   const [isLoading, setIsLoading] = useState(false);
 

@@ -113,6 +113,8 @@
   background-color: #fc5c65;
   margin-right: 10px;
   padding: 3px 10px;
+  font-size: 15px;
+  font-weight: 700;
   color: white;
   border-radius: 3px;
 }
@@ -120,7 +122,8 @@
   background-color: #8854d0;
   margin-right: 10px;
   font-style: normal;
-
+  font-size: 15px;
+  font-weight: 700;
   padding: 3px 10px;
   color: white;
   border-radius: 3px;
@@ -195,3 +198,23 @@
   color: inherit;
 }
 /* //////////////////////////////  */
+
+.card-status-watched-detail {
+  background: linear-gradient(to right, #49bf0a, #74e9a1);
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 3px 10px;
+  color: white;
+  border-radius: 3px;
+}
+
+.card-status-unwatched-detail {
+  background: linear-gradient(to right, #e71717, #e99f74);
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 3px 10px;
+  color: white;
+  border-radius: 3px;
+}

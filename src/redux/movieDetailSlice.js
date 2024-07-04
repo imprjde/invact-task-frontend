@@ -1,4 +1,3 @@
-// src/redux/selectedMovieSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 
 const selectedMovieSlice = createSlice({
